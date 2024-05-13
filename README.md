@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# React Native Course for Beginners in 2024 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an example of why React Native fails.  This was a follow along of the first 30 minutes of [JavaScript Mastery's](https://www.youtube.com/@javascriptmastery) YouTube Tutorial "[React Native Course for Beginners in 2024 | Build a Full Stack React Native App
+](https://www.youtube.com/watch?v=ZBCUegTZF7M)."  The tutorial's source code is available [here](https://github.com/adrianhajdin/aora).
 
-## Get started
+## What worked
 
-1. Install dependencies
+1. Initializing the project
 
    ```bash
-   npm install
+   npx create-expo-app
    ```
 
-2. Start the app
+2. Installing dependencies
+
+   ```bash
+    npm install
+   ```
+
+3. Making small modifications to the app
+
+4. Running the app
 
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## What didn't work
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Setting up nativewind
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Nativewind installs correctly, and all steps taken in the tutorial are followed to the letter, but all styling done with nativewind has no effect on the app.
 
-## Get a fresh project
+## Why it didn't work
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/learn): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* The tutorial followed was a month old, so it is possibly outdated, but if the tech stack breaks after a month, it is immature (even though it's 9 years old) and not suitable for building anything.
+* Nativewind is between version 2 and version 4, but neither package works.
+* React Native does not use the latest version of React.  React Native appears to be built on top of React, but never uses the current version of React.  React Native will always be reliant on outdated libraries and again is not suitable for building anything that works.
