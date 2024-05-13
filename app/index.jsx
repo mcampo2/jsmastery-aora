@@ -1,3 +1,4 @@
+import { Link } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <View style={styles.container}>
       <Text>Welcome to Aora!</Text>
+      <Link href="/profile" style={{ color: 'blue' }}>Go to Profile</Link>
     </View>
   );
 }
