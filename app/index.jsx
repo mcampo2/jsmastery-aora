@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-function RootLayout() {
+function App() {
 
   return (
     <View style={styles.container}>
@@ -9,7 +9,7 @@ function RootLayout() {
   );
 }
 
-export default RootLayout;
+export default App;
 
 const styles = StyleSheet.create({
   container: {
